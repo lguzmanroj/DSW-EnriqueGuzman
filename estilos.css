@@ -1,0 +1,50 @@
+
+
+h1{
+        color:red;  
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+               
+}
+h2{
+        color: blue;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3{
+        color: blueviolet;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    color: chartreuse;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.color_rojo {
+ color: red;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: larger;
+}
+.tabla{
+    padding: 100px;
+    text-align: justify;
+
+}
+.tabla_div{
+    padding: 50px;
+    background-color: aqua;
+
+}
+.elemento_div{
+    background-color: yellow;
+    padding: 10px;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.manualidentidad{
+    color: #005883;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+
+}

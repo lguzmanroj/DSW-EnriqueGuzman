@@ -1,0 +1,91 @@
+/*body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+}*/
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(131, 225, 248);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+
+
+.titulo{
+    text-align: center;
+    
+
+}
+.menus{
+    padding: 20px;
+    background-color: #F0B429;
+    text-align: center;
+    border-radius: 50px;
+}
+.tabla{
+    width: 80%;
+    margin: 40px; 
+     
+       
+ }
+.navegacion{
+    width: auto;
+    margin: 30px auto;
+    background:#F0B429;
+    text-align: center;
+    
+}
+.navegacion ul{
+    list-style: none;
+}
+.menu > li{
+    position: relative;
+    display: inline-block;
+    text-align: justify;
+
+}
+.menu > li > a{
+    display: block;
+    padding: 15px 90px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+.menu li a:hover{
+    color: red;
+    transition: all .3s;
+    background-color: cornflowerblue;
+    animation: 1s a1 1;
+}
+@keyframes a1{
+    0% {
+    opacity: 0;
+    transfor:scale (1.6);
+}
+}
+.submenu{
+    position: absolute;
+    background: #333333;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;   
+}
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
