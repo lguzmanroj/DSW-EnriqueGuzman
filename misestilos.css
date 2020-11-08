@@ -21,12 +21,7 @@ body{
     position: fixed;
  */
  
-.tabla{
-    width: 80%;
-    margin: 40px;
-    text-align: justify;
-    background-color: #F0B429;
-}
+
 .navegacion{
     width: auto;
     margin: 30px auto;
