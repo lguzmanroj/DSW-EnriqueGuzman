@@ -20,12 +20,12 @@ body{
 /*header{
     position: fixed;
  */
+ 
 .tabla{
     width: 80%;
     margin: 40px;
     text-align: justify;
     background-color: #F0B429;
-    
 }
 .navegacion{
     width: auto;
@@ -114,10 +114,25 @@ div{
 }
 footer{
     text-align: center;
-    box-shadow: 1px 1px 3px 3px #F47920;
+    box-shadow: 1px 1px 3px 3px #808080;
     background-color: #B3B3B3;
     padding: 10px;
     position: absolute;
     bottom: 0%;
     width: 100%;
- }     
+ }    
+ .foto{
+    position: absolute;
+    top: 315px;
+    bottom:0 px;
+    right:0;
+    float: right;
+}
+section{
+    background-color: #F0B429;
+    width: 80%; 
+    height: 100%;  
+    margin:20px;
+    padding:20px;
+    box-shadow: 1px 1px 3px 3px #B3B3B3;
+} 
