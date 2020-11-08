@@ -13,6 +13,9 @@
 body{
     background: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    padding-bottom: 58px;
+    min-height: 100vh;
 }
 /*header{
     position: fixed;
@@ -113,5 +116,8 @@ footer{
     text-align: center;
     box-shadow: 1px 1px 3px 3px #F47920;
     background-color: #B3B3B3;
-    font-size: xx-small;
-}     
+    padding: 10px;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+ }     
