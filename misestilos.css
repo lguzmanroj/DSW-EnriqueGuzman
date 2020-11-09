@@ -27,6 +27,7 @@ body{
     margin: 30px auto;
     background: #005883;
     text-align: center;
+    border-radius: 10px;
 }
 .navegacion ul{
     list-style: none;
@@ -87,6 +88,7 @@ p{
     margin:20px;
     padding:20px;
     box-shadow: 1px 1px 3px 3px #B3B3B3;
+    border-radius: 15px;
 } 
 
 /*.articulo{
@@ -101,13 +103,14 @@ p{
     text-align: justify;
     background-color: #F0B429;;
 }*/
+/*
 .cajatwitter{
     position: absolute;
     top: 351px;
     bottom:0px;
     right:0px;
     float: right;
-}
+}*/
 footer{
     text-align: center;
     box-shadow: 1px 1px 3px 3px #808080;
@@ -131,4 +134,17 @@ section{
     margin:20px;
     padding:20px;
     box-shadow: 1px 1px 3px 3px #B3B3B3;
-} 
+}
+img{
+    border-radius: 15px;
+}
+.clasediv{
+    background: #B3B3B3;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    box-shadow: 1px 1px 3px 3px #808080;
+    
+
+}
