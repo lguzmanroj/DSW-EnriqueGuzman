@@ -80,7 +80,7 @@ h1,h2,h3{
 p{
     font-size: 20px;
 }   
-div{
+ div{
     background-color: #F0B429;
     width: 68%; 
     height: 100%;  
@@ -88,6 +88,7 @@ div{
     padding:20px;
     box-shadow: 1px 1px 3px 3px #B3B3B3;
 } 
+
 /*.articulo{
     background-color: #F0B429;
     width: 40%; 
@@ -103,8 +104,8 @@ div{
 .cajatwitter{
     position: absolute;
     top: 351px;
-    bottom:0 px;
-    right:0;
+    bottom:0px;
+    right:0px;
     float: right;
 }
 footer{
@@ -119,8 +120,8 @@ footer{
  .foto{
     position: absolute;
     top: 352px;
-    bottom:0 px;
-    right:0;
+    bottom:0px;
+    right:0px;
     float: right;
 }
 section{
