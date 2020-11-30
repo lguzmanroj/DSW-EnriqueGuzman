@@ -147,5 +147,6 @@ aside{
 	display: inline-block;
     width: 30%;
 	min-height: 585px;
-	float: right;
+    float: right;
+    
 }
