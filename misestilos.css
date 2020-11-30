@@ -113,7 +113,7 @@ footer{
     box-shadow: 1px 1px 3px 3px #808080;
     background-color: #B3B3B3;
     padding: 10px;
-    position: absolute;
+    position: relative;
     bottom: 0%;
     width: 100%;
  }    
@@ -142,4 +142,10 @@ img{
     margin-right: auto;
     width: 40%;
     box-shadow: 1px 1px 3px 3px #808080;
+}
+aside{
+	display: inline-block;
+    width: 30%;
+	min-height: 585px;
+	float: right;
 }
